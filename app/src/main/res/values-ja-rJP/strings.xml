@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Man Nuo</string>
+    <string name="main_title">機能選択</string>
+    <string name="ble_scan_top_hint">オープンにしてください電話のBluetooth機能</string>
+    <string name="ble_scan_hint">をクリックしてくださいMan Nuoロゴ</string>
+    <string name="ble_not_support">本Bluetooth設備的支持Android4.3以上のバージョン</string>
+    <string name="ble_start_scan">走査装置</string>
+    <string name="ble_timeout_scan">タイムアウトに接続して再度試みてください</string>
+    <string name="ble_scanner_over_nofind">スキャン瞭、未発見設備</string>
+    <string name="function_title">モード選択</string>
+    <string name="ble_dian_err">警告：</string>
+    <string name="ble_dian_err_content">低電池をご担当ください直ちに、そうでない場合は、
+Bluetooth信号が表示され不安定なリンクします。</string>
+    <string name="touch_title">タッチモード</string>
+    <string name="touch_hint">ランダムに摺動インターフェースアクチュエータ軸と相手機械の振動強度の強弱を指でタッチ変更</string>
+
+    <string name="music_no_one">あなたの携帯は音楽を再生していませ</string>
+    <string name="is_positive">確定</string>
+    <string name="play_time">00:00:00</string>
+    <string name="dialog_title">選択して設備を選択して下さい</string>
+    <string name="cancel">キャンセル</string>
+    <string name="ble_scan_connecting">スキャンして設備をスキャンして、準備して接続して...</string>
+</resources>

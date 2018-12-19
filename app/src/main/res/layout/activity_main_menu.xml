@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/icon_main_bg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100">
+
+        <ImageView
+            android:id="@+id/iv_menu_back"
+            android:layout_width="@dimen/x25"
+            android:layout_height="@dimen/y38"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@mipmap/ic_main_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="功能选择"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x38" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/x30"
+
+            >
+            <RelativeLayout
+                android:id="@+id/rela_battery_left"
+                android:layout_width="@dimen/x60"
+                android:layout_height="@dimen/y32"
+                android:layout_toLeftOf="@+id/rela_battery_right"
+                android:background="@drawable/shape_battary_left_bg">
+
+
+                <TextView
+                    android:id="@+id/tv_battery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="100%"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/x22"
+                    />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/rela_battery_right"
+                android:layout_width="@dimen/x4"
+                android:layout_height="@dimen/y10"
+                android:layout_marginLeft="@dimen/x2"
+                android:background="@drawable/shape_battary_right_bg"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_above="@+id/iv_menu_utoo"
+            >
+            <ImageView
+                android:id="@+id/iv_menu_music"
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/x200"
+                android:scaleType="fitXY"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/ic_main_music" />
+
+            <RelativeLayout
+                android:id="@+id/iv_menu_center"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/iv_menu_music"
+                android:paddingLeft="@dimen/x80"
+                android:paddingRight="@dimen/x80"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_menu_movie"
+                    android:layout_width="@dimen/x200"
+                    android:scaleType="fitXY"
+                    android:layout_height="@dimen/x200"
+                    android:src="@mipmap/ic_main_video" />
+
+                <ImageView
+                    android:id="@+id/iv_menu_function"
+                    android:layout_width="@dimen/x200"
+                    android:layout_height="@dimen/x200"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/ic_main_function" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_menu_touch"
+                android:layout_width="@dimen/x200"
+                android:layout_below="@+id/iv_menu_center"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:layout_height="@dimen/x200"
+                android:src="@mipmap/ic_main_touch" />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/iv_menu_utoo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/y80"
+            android:src="@mipmap/ic_main_utoo"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

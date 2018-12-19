@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Man Nuo</string>
+    <string name="ble_scan_top_hint">Нажмите на переключатель, чтобы включить Bluetooth</string>
+    <string name="ble_scan_hint">Нажмите на Man Nuo, чтобы поиск</string>
+    <string name="ble_not_support">Это временно поддерживает только  Android4.3 выше устройств bluetooth версии</string>
+    <string name="ble_start_scan">сканирующее устройство </string>
+    <string name="ble_timeout_scan">Истекло время ожидания соединения  , пожалуйста,  попробуйте снова </string>
+    <string name="ble_scanner_over_nofind">В конце сканирования , устройство не обнаружено</string>
+    <string name="main_title">функция выбора</string>
+    <string name="touch_title">Сенсорный режим</string>
+    <string name="touch_hint">Пожалуйста,произвольно погладил экран</string>
+    <string name="function_title">Выбор режима</string>
+    <string name="music_no_one">ваш телефон не найти играть музыку</string>
+    <string name="is_positive">Определения</string>
+    <string name="play_time">00:00:00</string>
+    <string name="dialog_title">Пожалуйста,выберите устройство</string>
+    <string name="cancel">отменить</string>
+    <string name="ble_scan_connecting">сканирование на оборудование связи , готов... </string>
+    <string name="ble_dian_err">Предупреждение：</string>
+    <string name="ble_dian_err_content">Если батарея является недостаточной, пожалуйста, зарядите немедленно. В противном случае сигнал по Bluetooth
+появится нестабильная связь.</string>
+</resources>

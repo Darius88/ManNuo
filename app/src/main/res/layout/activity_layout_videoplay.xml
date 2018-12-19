@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y500">
+
+
+        <com.xiao.nicevideoplayer.NiceVideoPlayer
+            android:id="@+id/nplayer_video"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y500">
+
+        </com.xiao.nicevideoplayer.NiceVideoPlayer>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y100">
+
+            <ImageView
+                android:id="@+id/iv_video_back"
+                android:layout_width="@dimen/x25"
+                android:layout_height="@dimen/y38"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x30"
+                android:src="@mipmap/ic_main_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="视频播放"
+                android:textColor="@color/white"
+                android:textSize="@dimen/x38" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x30"
+
+                >
+                <RelativeLayout
+                    android:id="@+id/rela_battery_left"
+                    android:layout_width="@dimen/x60"
+                    android:layout_height="@dimen/y32"
+                    android:layout_toLeftOf="@+id/rela_battery_right"
+                    android:background="@drawable/shape_battary_left_bg">
+
+
+                    <TextView
+                        android:id="@+id/tv_battery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="100%"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/x22"
+                        />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/rela_battery_right"
+                    android:layout_width="@dimen/x4"
+                    android:layout_height="@dimen/y10"
+                    android:layout_marginLeft="@dimen/x2"
+                    android:background="@drawable/shape_battary_right_bg"
+                    />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:background="@color/gray"
+        android:text="视频列表"
+        android:textSize="@dimen/x30"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/x20"
+        android:textColor="#FF000000"
+        />
+
+
+    <ListView
+        android:id="@+id/lv_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:divider="@color/gray"
+        android:dividerHeight="@dimen/x1"
+        ></ListView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">mannuo</string>
+    <string name="ble_scan_top_hint">使用前请先开启手机蓝牙</string>
+    <string name="ble_scan_hint">请点击Man Nuo商标</string>
+    <string name="ble_not_support">本蓝牙设备暂时只支持Android4.3以上版本</string>
+    <string name="ble_start_scan">扫描设备</string>
+    <string name="ble_connected">设备已连接</string>
+    <string name="ble_disConnected">设备已断开，请重新扫描</string>
+    <string name="ble_timeout_scan">连接超时 请再次尝试</string>
+    <string name="ble_scanner_over_nofind">扫描结束，未发现设备</string>
+    <string name="main_title">功能选择</string>
+    <string name="touch_title">抚摸模式</string>
+    <string name="touch_hint">随机点击界面设备会产生振动，\n 振动的力度强弱随着手指触摸而产生变化</string>
+    <string name="function_title">模式选择</string>
+    <string name="music_no_one">您的手机未找到播放音乐</string>
+    <string name="is_positive">确定</string>
+    <string name="play_time">00:00:00</string>
+    <string name="dialog_title">请选择设备</string>
+    <string name="cancel">取消</string>
+    <string name="ble_scan_connecting">扫描到设备，准备连接...</string>
+    <string name="ble_dian_err">警告：</string>
+    <string name="ble_dian_err_content">电量不足请立即充电，否则藍牙信號会出现不稳定链接。</string>
+</resources>

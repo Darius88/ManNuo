@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Man Nuo</string>
+    <string name="main_title">De sélection de fonction</string>
+    <string name="ble_scan_top_hint">Avant d’utiliser, activer Bluetooth du mobile</string>
+    <string name="ble_scan_hint">Cliquez sur la marque Man Nuo</string>
+    <string name="ble_not_support">Le dispositif Bluetooth temporairement ne supporte Android4.3 plusieurs versions</string>
+    <string name="ble_start_scan">Dispositif de balayage</string>
+    <string name="ble_timeout_scan">Veuillez essayer de temporisation de liaison</string>
+    <string name="ble_scanner_over_nofind">Fin de balayage et n’a pas trouvé de disposit</string>
+    <string name="function_title">Sélection de mode </string>
+    <string name="ble_dian_err">Avertissement：</string>
+    <string name="ble_dian_err_content">Recharger immédiatement si la batterie est insuffisante .
+Sinon, le signal Bluetooth va montrer le lien instable.</string>
+    <string name="touch_title">Mode tactile </string>
+    <string name="touch_hint">Cliquez sur l\'interface au hasard, et l\'appareil se met à vibrer. L\'intensité de vibration varie avec la force du doigt</string>
+
+    <string name="music_no_one">Ton portable n\'a pas trouvé de jouer de la musique</string>
+    <string name="is_positive">Déterminer</string>
+    <string name="play_time">00:00:00</string>
+    <string name="dialog_title">Veuillez sélectionner le dispositif</string>
+    <string name="cancel">Annuler</string>
+    <string name="ble_scan_connecting">Balayage vers le dispositif, préparation de connexion...</string>
+</resources>

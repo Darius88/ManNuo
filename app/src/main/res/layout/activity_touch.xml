@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_touch_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100">
+
+        <ImageView
+            android:id="@+id/iv_touch_back"
+            android:layout_width="@dimen/x25"
+            android:layout_height="@dimen/y38"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@mipmap/ic_main_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="抚摸模式"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x38" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/x30"
+
+            >
+        <RelativeLayout
+            android:id="@+id/rela_battery_left"
+            android:layout_width="@dimen/x60"
+            android:layout_height="@dimen/y32"
+            android:layout_toLeftOf="@+id/rela_battery_right"
+            android:background="@drawable/shape_battary_left_bg">
+
+
+            <TextView
+                android:id="@+id/tv_battery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="100%"
+                android:textColor="@color/white"
+                android:textSize="@dimen/x22"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/rela_battery_right"
+            android:layout_width="@dimen/x4"
+            android:layout_height="@dimen/y10"
+            android:layout_marginLeft="@dimen/x2"
+            android:background="@drawable/shape_battary_right_bg"
+           />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/y120"
+        android:text="请随意点击屏幕"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x40"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/iv_touch_remote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x30"
+        android:layout_marginTop="@dimen/y100"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_touch_thumb" />
+
+</RelativeLayout>

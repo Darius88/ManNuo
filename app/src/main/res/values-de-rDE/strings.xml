@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ble_scan_top_hint">Berühren Sie den Schalter schalten Sie Bluetooth Auf</string>
+    <string name="ble_scan_hint">Klicken Sie auf die Man Nuo suchen</string>
+    <string name="ble_not_support">Das bluetooth - Geräte unterstützen mehr ALS Nur vorübergehend Android4.3 version</string>
+    <string name="ble_start_scan">Scanner - ausrüstung</string>
+    <string name="ble_timeout_scan">Die auszeit noch einmal versuchen</string>
+    <string name="ble_scanner_over_nofind">Der scan abgeschlossen IST, fand keine Geräte</string>
+    <string name="function_title">Modus-Auswahl</string>
+    <string name="ble_dian_err">Warnung：</string>
+    <string name="ble_dian_err_content">Wenn die Batterie nicht ausreichend ist, laden Sie bitte sofort. </string>
+    <string name="touch_title">Tippen Sie auf Modus</string>
+    <string name="touch_hint">Click interface randomly product makes vibration, the vibration strength or rhythm changes as the fingers\' touching</string>
+    <string name="app_name">UTOO</string>
+    <string name="main_title">Wählen sie die funktion</string>
+    <string name="music_no_one">Ihr Handy nicht Finden, Musik</string>
+    <string name="is_positive">Sicher</string>
+    <string name="play_time">00:00:00</string>
+    <string name="dialog_title">Wählen sie das Gerät</string>
+    <string name="cancel">Abgesagt</string>
+    <string name="ble_scan_connecting">Scan - Geräte，Im zusammenhang mit der vorbereitung...</string>
+</resources>

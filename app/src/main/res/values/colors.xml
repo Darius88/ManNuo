@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="select_item_text">#ffff00</color>
+    <color name="selected_item_text">#80ffffff</color>
+    <!--视频播放器-->
+    <!-- 灰色 -->
+    <color name="gray">#ff868686</color>
+    <color name="black">#ff000000</color>
+
+    <!-- 浅绿色 -->
+    <color name="light_green">#fff1dd58</color>
+
+    <!-- 园的底色 -->
+    <color name="char_circlebackground">#ff303030</color>
+
+    <!-- 园进度条的颜色 -->
+    <color name="char_circleplan">#ffCD2990</color>
+
+    <!-- 半透明灰色 -->
+    <color name="gray_50">#50949494</color>
+
+    <!-- 半透明浅灰色 -->
+    <color name="lightgray_50">#50cdd0d7</color>
+
+    <!--连接页面字体颜色灰-->
+    <color name="connect_gray_text">#949090</color>
+
+</resources>
